@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="medusa"
+           fetch="https://github.com/MedusaOS"
+           revision="refs/heads/medusa-1.0" />
+
+  <!-- MedusaOS additions -->
+  <project path="android" name="MedusaOS/android" remote="medusa" />
+  <project path="vendor/medusa" name="MedusaOS/android-vendor-medusa" remote="medusa" />
+</manifest>
