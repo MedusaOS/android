@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="medusa" fetch="https://github.com/MedusaOS" revision="medusa-1.0" />
+  <remote name="yaap" fetch="https://github.com/yaap" revision="thirteen" />
+
+  <!-- yaap additions -->
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="yaap" />
+
+  <!-- MedusaOS additions -->
+  <project path="android" name="android" remote="medusa" />
+</manifest>
